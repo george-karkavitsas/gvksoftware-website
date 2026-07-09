@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Primary SEO -->
+  <title>GVK Software — Android Applications Built with Care</title>
+  <meta name="description" content="GVK Software creates useful Android applications focused on clean design, reliability, and practical features. Explore Hedgehog, My Lure Collection, and Etheron on Google Play.">
+  <meta name="author" content="GVK Software">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gvksoftware.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="GVK Software">
+  <meta property="og:title" content="GVK Software — Android Applications Built with Care">
+  <meta property="og:description" content="Android applications built with care, performance and simplicity. Privacy-first tools and practical apps from an independent studio.">
+  <meta property="og:url" content="https://gvksoftware.com/">
+  <meta property="og:locale" content="en_GB">
+  <!-- Replace with your preferred social preview image when available -->
+  <meta property="og:image" content="https://gvksoftware.com/assets/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="GVK Software — Android Applications Built with Care">
+  <meta name="twitter:description" content="Android applications built with care, performance and simplicity.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "GVK Software",
+    "url": "https://gvksoftware.com/",
+    "description": "GVK Software creates Android applications focused on clean design, reliability, and practical features.",
+    "email": "info@gvksoftware.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jupiter Heights",
+      "postalCode": "UB10 0TA",
+      "addressLocality": "Uxbridge",
+      "addressCountry": "GB"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-logo" href="#top" aria-label="GVK Software — home">
+        <img class="site-logo__mark" src="favicon.svg" alt="" width="32" height="32">
+        <span>GVK Software</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="site-nav"
+      >
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero__content">
+        <p class="hero__badge">
+          <span class="hero__badge-dot" aria-hidden="true"></span>
+          Android app studio
+        </p>
+        <h1 class="hero__title" id="hero-title">GVK Software</h1>
+        <p class="hero__subtitle">
+          Android applications built with care, performance and simplicity.
+        </p>
+        <a class="btn btn--primary" href="#apps">
+          View Our Apps
+          <svg class="btn__arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Apps — cards rendered from script.js APPS array -->
+    <section class="section apps" id="apps" aria-labelledby="apps-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="section__eyebrow">Our apps</p>
+          <h2 class="section__title" id="apps-title">Built for real-world use</h2>
+          <p class="section__lead">
+            Independent Android applications designed with attention to detail — from privacy tools to everyday utilities.
+          </p>
+        </header>
+
+        <div class="apps-grid" id="apps-grid" aria-live="polite">
+          <!-- App cards injected by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__text">
+          <header class="section__header">
+            <p class="section__eyebrow">About us</p>
+            <h2 class="section__title" id="about-title">Useful apps, thoughtfully made</h2>
+          </header>
+          <p>
+            GVK Software is an independent studio that builds Android applications for people who value clarity, reliability, and tools that simply work.
+          </p>
+          <p>
+            Every app we ship is focused on clean design, practical features, and performance you can depend on — whether you're securing sensitive data, tracking a passion, or monitoring network activity.
+          </p>
+          <p>
+            We keep our products focused, maintain them with care, and respect your time and privacy along the way.
+          </p>
+        </div>
+
+        <ul class="about__pillars" aria-label="Our principles">
+          <li class="pillar">
+            <h3 class="pillar__title">Clean design</h3>
+            <p class="pillar__text">Interfaces that are intuitive, uncluttered, and pleasant to use every day.</p>
+          </li>
+          <li class="pillar">
+            <h3 class="pillar__title">Reliability</h3>
+            <p class="pillar__text">Stable, well-tested apps that perform consistently on real devices.</p>
+          </li>
+          <li class="pillar">
+            <h3 class="pillar__title">Practical features</h3>
+            <p class="pillar__text">Functionality that solves real problems — nothing bloated, nothing unnecessary.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <header class="section__header">
+          <p class="section__eyebrow">Contact</p>
+          <h2 class="section__title" id="contact-title">Get in touch</h2>
+          <p class="section__lead">
+            Questions, feedback, or partnership enquiries — we'd like to hear from you.
+          </p>
+        </header>
+
+        <div class="contact-card">
+          <p class="contact-card__business">GVK Software</p>
+          <address class="contact-card__address">
+            Jupiter Heights,<br>
+            UB10 0TA,<br>
+            Uxbridge, UK
+          </address>
+          <p class="contact-card__label">Email us at</p>
+          <a class="contact-card__email" href="mailto:info@gvksoftware.com">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="1.75"/>
+              <path d="M22 8l-10 7L2 8" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/>
+            </svg>
+            info@gvksoftware.com
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__copy">&copy; 2026 GVK Software. All rights reserved.</p>
+      <p class="site-footer__tagline">Android applications built with care.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
